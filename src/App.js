@@ -6,7 +6,6 @@ function App() {
   return (
     <div>
       <Header />
-      {/* page container */}
       <Footer />
     </div>
   );
