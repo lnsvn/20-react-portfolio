@@ -26,7 +26,9 @@ export default function Portfolio() {
     )
   })
   return (
-    <div>{projectData}</div>
+    <main>
+      <div>{projectData}</div>
+    </main>
   )
 }
 

@@ -25,11 +25,11 @@ export default function Header() {
   
     return (
       <div>
-        <header>
+        <header >
             <h1 className="font-link">Lauren Sullivan</h1>
-            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-            {renderPage()}
         </header>
+        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+            {renderPage()}
       </div>
     );
   }
