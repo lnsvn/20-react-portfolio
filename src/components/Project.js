@@ -2,12 +2,13 @@ import React from "react";
 
 export default function Project(props) {
     return (
-        <div class="card" styles="width: 18rem;">
-            <img src="..." class="card-img-top" alt="..."></img>
+        <div class="card d-flex flex-row">
+            <img src={props.img} width="350" height="225" className="rounded"></img>
             <div class="card-body">
-                <h5 class="card-title">{props.title}</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h3 class="card-title">{props.title}</h3>
+                <p class="card-text">{props.description}</p>
+                <a class="btn btn-lg btn-outline-primary me-5" href={props.app}>Deployed App</a>
+                <a class="btn btn-lg btn-outline-primary" href={props.repo}><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
     );
