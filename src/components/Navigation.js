@@ -2,32 +2,46 @@ import React from "react";
 
 function Navigation({ currentPage, handlePageChange }) {
     return (
-        <ul class="nav justify-content-end">
-            <li class="nav-item font-link">
-                <a href="#aboutme"
-                onClick={() => handlePageChange('AboutMe')}
-                className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}>
-                About Me</a>
-            </li>
-            <li class="nav-item font-link">
-                <a href="#portfolio"
-                onClick={() => handlePageChange('Portfolio')}
-                className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
-                >Portfolio</a>
-            </li>
-            <li class="nav-item font-link">
-                <a href="#contact"
-                onClick={() => handlePageChange('Contact')}
-                className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-                >Contact</a>
-            </li>
-            <li class="nav-item font-link">
-                <a href="#resume"
-                onClick={() => handlePageChange('Resume')}
-                className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-                >Resume</a>
-            </li>
-        </ul>
+        <div className="yellow d-flex justify-content-between align-items-center p-5 sticky-top">
+            <header className="font-link">
+                <h1 className="ms-5">Lauren Sullivan</h1>
+            </header>
+            <h1>✵</h1>
+            <h1>❊</h1>
+            <h1>✺</h1>
+            <h1>❊</h1>
+            <h1>✵</h1>
+            <ul class="nav justify-content-end me-5">
+                <li class="nav-item font-link">
+                    <a href="#aboutme"
+                    onClick={() => handlePageChange('AboutMe')}
+                    className={currentPage === 'AboutMe' ? 'nav-link link-body-emphasis' : 'nav-link link-light'}>
+                        <h2>About Me</h2>
+                    </a>
+                </li>
+                <li class="nav-item font-link">
+                    <a href="#portfolio"
+                    onClick={() => handlePageChange('Portfolio')}
+                    className={currentPage === 'Portfolio' ? 'nav-link link-body-emphasis' : 'nav-link link-light'}>
+                        <h2>Portfolio</h2>
+                    </a>
+                </li>
+                <li class="nav-item font-link">
+                    <a href="#contact"
+                    onClick={() => handlePageChange('Contact')}
+                    className={currentPage === 'Contact' ? 'nav-link link-body-emphasis' : 'nav-link link-light'}>
+                        <h2>Contact</h2>
+                    </a>
+                </li>
+                <li class="nav-item font-link">
+                    <a href="#resume"
+                    onClick={() => handlePageChange('Resume')}
+                    className={currentPage === 'Resume' ? 'nav-link link-body-emphasis' : 'nav-link link-light'}>
+                        <h2>Resume</h2>
+                    </a>
+                </li>
+            </ul>
+        </div>
     );
   }
   

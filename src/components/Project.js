@@ -2,13 +2,15 @@ import React from "react";
 
 export default function Project(props) {
     return (
-        <div class="card d-flex flex-row">
-            <img src={props.img} width="350" height="225" className="rounded"></img>
-            <div class="card-body">
+        <div class="card d-flex flex-row align-items-center p-4">
+            <img src={props.img} width="350" height="225" className="rounded" alt="project"></img>
+            <div class="card-body d-flex flex-column justify-content-center align-items-start m-3">
                 <h3 class="card-title">{props.title}</h3>
                 <p class="card-text">{props.description}</p>
-                <a class="btn btn-lg btn-outline-primary me-5" href={props.app}>Deployed App</a>
-                <a class="btn btn-lg btn-outline-primary" href={props.repo}><i class="fa-brands fa-github"></i></a>
+                <div className="d-flex flex-row align-items-center">
+                    <a class="btn btn-lg btn-outline-dark me-5" href={props.app}>Deployed App</a>
+                    <a class="btn btn-lg btn-outline-dark" href={props.repo}><i class="fa-brands fa-github"></i></a>
+                </div>
             </div>
         </div>
     );

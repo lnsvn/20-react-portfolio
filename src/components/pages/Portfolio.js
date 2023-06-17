@@ -31,16 +31,16 @@ export default function Portfolio() {
   const projectData = projects.map((project) => {
     return (
       <div>
-        <ul className="list-group">
+        <ul>
           <li className="list-group-item mb-4"><Project title={project.title} img={project.img} description={project.text} app={project.appLink} repo={project.repoLink}/></li>
         </ul>
       </div>
     )
   })
   return (
-    <main>
+    <main className="purple">
       <div className="container font-link d-flex flex-column align-items-center">
-        <h1>Portfolio</h1>
+        <h1 className="p-5">Portfolio</h1>
         <div>{projectData}</div>
       </div>
     </main>

@@ -25,9 +25,6 @@ export default function Header() {
   
     return (
       <div>
-        <header >
-            <h1 className="font-link">Lauren Sullivan</h1>
-        </header>
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
       </div>

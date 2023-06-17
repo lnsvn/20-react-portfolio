@@ -7,6 +7,29 @@ code {
     monospace;
 }
 
+i:hover {
+  color: #9E7682;
+}
+
 i {
   font-size: 50px;
+  scale: 1.1;
+}
+
+a:hover {
+  color: #9E7682;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.purple {
+  background-color: #4D4861;
+  color: #fff;
+}
+
+.yellow {
+  background-color: #E1AA51;
+  color: #fff;
 }
