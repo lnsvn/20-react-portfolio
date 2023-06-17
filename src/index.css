@@ -20,7 +20,8 @@ a:hover {
   color: #9E7682;
 }
 
-.card-text {
+.card-text,
+label {
   font-size: 20px;
 }
 
