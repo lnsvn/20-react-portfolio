@@ -1,3 +1,7 @@
+.fill-page {
+  height: 80vh;
+}
+
 .font-link {
   font-family: 'Delius', cursive;
 }
@@ -20,7 +24,8 @@ a:hover {
 }
 
 .card-text,
-label {
+label,
+p {
   font-size: 20px;
 }
 

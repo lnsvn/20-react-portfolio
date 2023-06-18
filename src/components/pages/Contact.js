@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
     return (
-      <main className="purple font-link">
+      <main className="fill-page purple font-link">
         <div className="container d-flex flex-column justify-content-center">
           <h1 className="p-5 d-flex flex-row justify-content-center">Contact</h1>
           <form className="mx-5 mb-5">

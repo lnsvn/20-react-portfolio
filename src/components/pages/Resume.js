@@ -21,7 +21,7 @@ export default function Resume() {
     )
   })
     return (
-      <main className="purple font-link d-flex flex-column align-items-center justify-content-center">
+      <main className="fill-page purple font-link d-flex flex-column">
         <div className="container d-flex flex-column align-items-center justify-content-center">
           <h1 className="px-5 pt-5 pb-3">Resume</h1>
           <a class="btn btn-lg btn-outline-warning mb-3" role="button" href={LaurenSullivanResume} download="LaurenSullivanResume.pdf">
