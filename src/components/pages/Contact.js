@@ -2,16 +2,19 @@ import React, {useState} from "react";
 import { validateEmail } from "../../utils/helpers";
 
 export default function Contact() {
+  // state variables, sets initial value to empty
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleInputChange = (e) => {
+    // getting the value and name of the input which triggered the change
     const { target } = e;
     const inputType = target.name;
     const inputValue = target.value;
 
+    // based on input type, sets the state of either name, email, and message
     if (inputType === 'name') {
       setName(inputValue);
     } else if (inputType === 'email') {
@@ -22,10 +25,13 @@ export default function Contact() {
   };
 
   const handleFormSubmit = (e) => {
+    // prevents page refresh
     e.preventDefault();
 
+    // sets state of error message based on which field has been left empty
     if (name === '') {
       setErrorMessage('Name is required.');
+      // exits code block so user can correct error
       return;
     } else if (email === '') {
       setErrorMessage('E-mail is required.');
@@ -35,13 +41,16 @@ export default function Contact() {
       return;
     };
 
+    // checks email validity based on imported validateEmail function
     if (!validateEmail(email)) {
+      // if email is invalid, sets state of error message to invalid
       setErrorMessage('Email is invalid.');
       return;
     };
     
     alert(`Thanks for contacting me ${name}. I will get back to you ASAP!`);
 
+    // clears input fields
     setName('');
     setEmail('');
     setMessage('');

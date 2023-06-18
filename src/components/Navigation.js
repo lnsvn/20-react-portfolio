@@ -1,5 +1,6 @@
 import React from "react";
 
+// destructures variable from props
 function Navigation({ currentPage, handlePageChange }) {
     return (
         <div className="yellow d-flex justify-content-between align-items-center p-5 sticky-top">
@@ -15,6 +16,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 <li className="nav-item font-link">
                     <a href="#aboutme"
                     onClick={() => handlePageChange('AboutMe')}
+                    // checks to see if the current page is "About Me", if yes nav-link is black, if no, the nav-link is white
                     className={currentPage === 'AboutMe' ? 'nav-link link-body-emphasis' : 'nav-link link-light'}>
                         <h2>About Me</h2>
                     </a>
@@ -43,7 +45,7 @@ function Navigation({ currentPage, handlePageChange }) {
             </ul>
         </div>
     );
-  }
+};
   
-  export default Navigation;
+export default Navigation;
   

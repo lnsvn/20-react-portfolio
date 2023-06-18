@@ -7,6 +7,7 @@ import NoteTaker from "../../images/notetaker.png";
 import WorkDayScheduler from "../../images/workdayscheduler.png";
 
 export default function Portfolio() {
+  // array of projects
   const projects = [
     {
       title: "Project-3",
@@ -50,6 +51,7 @@ export default function Portfolio() {
       repoLink: "https://github.com/lnsvn/05-third-party-apis",
     }
   ]
+  // maps projects array for props data
   const projectData = projects.map((project) => {
     return (
       <div>
@@ -63,6 +65,7 @@ export default function Portfolio() {
     <main className="purple">
       <div className="container font-link d-flex flex-column align-items-center">
         <h1 className="p-5">Portfolio</h1>
+        {/* inserts function including project data and Project component including props */}
         <div>{projectData}</div>
       </div>
     </main>
