@@ -2,10 +2,18 @@ import React from "react";
 import Project from "../Project";
 import CastleJournalImg from "../../images/castlejournal.png";
 import PokéWikiImg from "../../images/pokewiki.png";
-import TechBlogImg from "../../images/techblog.png"
+import TechBlogImg from "../../images/techblog.png";
+import NoteTaker from "../../images/notetaker.png";
+import WorkDayScheduler from "../../images/workdayscheduler.png";
 
 export default function Portfolio() {
   const projects = [
+    {
+      title: "Project-3",
+      text: "This is a plcaeholder card for Project 3",
+      appLink: "",
+      repoLink: "",
+    },
     {
       title: "CastleJournal",
       img: CastleJournalImg,
@@ -26,6 +34,20 @@ export default function Portfolio() {
       text: "The Tech Blog is a CMS-style blog site, where developers can publish blog posts and comment on other developers’ posts.",
       appLink: "https://limitless-bastion-04221.herokuapp.com/",
       repoLink: "https://github.com/lnsvn/14-tech-blog",
+    },
+    {
+      title: "Note Taker",
+      img: NoteTaker,
+      text: "Note Taker is a an application you can use to write, save, and delete notes so that your thoughts and tasks will be organized.",
+      appLink: "https://enigmatic-springs-22882.herokuapp.com/",
+      repoLink: "https://github.com/lnsvn/11-note-taker"
+    },
+    {
+      title: "Work Day Scheduler",
+      img: WorkDayScheduler,
+      text: "Work Day Scheduler is a simple planner application that allows users to save events for each hour of the work day (9AM-5PM). Employees with busy schedules can add important events to their planner so that they can manage their time effectively. The time blocks are color coded to represent past, present, or future hours.",
+      appLink: "https://lnsvn.github.io/05-third-party-apis/",
+      repoLink: "https://github.com/lnsvn/05-third-party-apis",
     }
   ]
   const projectData = projects.map((project) => {

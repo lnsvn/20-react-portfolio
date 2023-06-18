@@ -4,7 +4,7 @@ import LaurenSullivanResume from "../../resume/LaurenSullivanResume.pdf"
 
 export default function Resume() {
   const frontEndSkills = ["HTML", "CSS", "JavaScript", "jQuery", "React", "Responsive Design", "BootStrap"];
-  const backendSkills = ["APIs", "Node", "Express", "MySQL/Sequelize", "MongoDB/Mongoose", "REST", "GraphQL"];
+  const backEndSkills = ["APIs", "Node", "Express", "MySQL/Sequelize", "MongoDB/Mongoose", "REST", "GraphQL"];
 
   const feSkillsData = frontEndSkills.map((skill) => {
     return (
@@ -13,7 +13,7 @@ export default function Resume() {
       </div>
     )
   })
-  const beSkillsData = backendSkills.map((skill) => {
+  const beSkillsData = backEndSkills.map((skill) => {
     return (
       <div className="p-2">
         <Skill skill={skill}/>
