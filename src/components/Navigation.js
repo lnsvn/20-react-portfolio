@@ -6,7 +6,7 @@ function Navigation({ currentPage, handlePageChange }) {
             <header className="font-link">
                 <h1 className="ms-5">Lauren Sullivan</h1>
             </header>
-            <h1>✵</h1>Name
+            <h1>✵</h1>
             <h1>❊</h1>
             <h1>✺</h1>
             <h1>❊</h1>

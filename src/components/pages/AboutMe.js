@@ -7,7 +7,7 @@ export default function AboutMe() {
       <div className="purple font-link d-flex flex-column align-items-center justify-content-center">
         <h1 className="p-5">About Me</h1>
         <div className="d-flex flex-row align-items-center justify-content-between">
-          <img alt="Self portrait" src={portrait} width="200" height="200" className="rounded"></img>
+          <img alt="Self portrait" src={portrait} width="200" height="200" className="rounded border border-warning"></img>
           <p>
             This page is about me.
           </p>
