@@ -5,7 +5,7 @@
 
 ## Description
 
-This site is my current prtfolio built using React.
+This site is my current portfolio built using React.
 
 <h3>
     <a href="https://lnsvn.github.io/20-react-portfolio/">
