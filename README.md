@@ -8,7 +8,7 @@
 This site is my current prtfolio built using React.
 
 <h3>
-    <a href="">
+    <a href="https://lnsvn.github.io/20-react-portfolio/">
     Deployed Application
     </a>
 </h3>
