@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/20-react-portfolio/static/css/main.6855b342.css",
+    "main.js": "/20-react-portfolio/static/js/main.615fa024.js",
+    "static/media/castlejournal.png": "/20-react-portfolio/static/media/castlejournal.d7ff6c1e22bb7b88599a.png",
+    "static/media/workdayscheduler.png": "/20-react-portfolio/static/media/workdayscheduler.6198c65975e4ad8bd5b8.png",
+    "static/media/techblog.png": "/20-react-portfolio/static/media/techblog.357ed4447bcfe837c0b9.png",
+    "static/media/aboutme.jpg": "/20-react-portfolio/static/media/aboutme.fd12244e424a80b80a94.jpg",
+    "static/media/notetaker.png": "/20-react-portfolio/static/media/notetaker.b062db690d2f2d6068e2.png",
+    "static/media/pokewiki.png": "/20-react-portfolio/static/media/pokewiki.5cbfe9d161ac158ca8b5.png",
+    "static/media/LaurenSullivanResume.pdf": "/20-react-portfolio/static/media/LaurenSullivanResume.4764c3736f6eb354b2d9.pdf",
+    "index.html": "/20-react-portfolio/index.html",
+    "main.6855b342.css.map": "/20-react-portfolio/static/css/main.6855b342.css.map",
+    "main.615fa024.js.map": "/20-react-portfolio/static/js/main.615fa024.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6855b342.css",
+    "static/js/main.615fa024.js"
+  ]
+}
